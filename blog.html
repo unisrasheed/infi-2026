@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Blog | Inficaptures</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="blog.css">
+</head>
+
+<body>
+
+<!-- =========================================
+     NAVBAR
+========================================= -->
+
+<header class="blog-navbar">
+
+    <div class="blog-logo">
+        <span class="logo-symbol">◆</span>
+        <span>inficaptures</span>
+    </div>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="blog.html" class="active">Blog</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <div class="blog-socials">
+        <span>◎</span>
+        <span>in</span>
+        <span>f</span>
+        <span>𝕏</span>
+    </div>
+
+</header>
+
+
+<!-- =========================================
+     BLOG LIST
+========================================= -->
+
+<main class="blog-page">
+
+    <!-- BLOG 1 -->
+
+    <article class="blog-item">
+
+        <img
+            src="media/winter-gulmarg.png"
+            class="blog-image"
+            alt="Winter Morning in Gulmarg"
+        >
+
+        <div class="blog-content">
+
+            <h2>A Winter Morning in Gulmarg</h2>
+
+            <p>
+                As I walked through the snow, puffs of breath escaping my mouth,
+                a biting wind pierced my cheeks. I hadn't planned anything for that
+                day except for a quiet stroll during winter and my camera.
+                There is something about cold weather that strips everything down
+                to its core, bare ZNo fancy colors to distract everything is just
+                the truth.
+            </p>
+
+            <p>
+                I then spotted a tree all by itself in a vast field of untouched snow.
+                I gave no leaves or applause and only bare strong branches stretched
+                upwards as if it was reaching for the clouds.
+            </p>
+
+            <button
+                class="read-more"
+                data-blog="winter"
+            >
+                READ MORE &gt;
+            </button>
+
+        </div>
+
+    </article>
+
+
+    <!-- BLOG 2 -->
+
+    <article class="blog-item blog-item-reverse">
+
+        <img
+            src="media/blog2.png"
+            class="blog-image"
+            alt="Kashmir Landscape"
+        >
+
+        <div class="blog-content">
+
+            <h2>Where Things Come to Life</h2>
+
+            <h3>Existence and Development Seen Through the Lens</h3>
+
+            <p>
+                In the peaceful folds of Kashmir, where the mountains stand eternally
+                and the rivers continue to reflect the moods of the sky, we found a
+                message for every brand.
+            </p>
+
+            <p>
+                There is a quiet power to every product we photograph, every brand
+                story we help show to the world.
+            </p>
+
+            <button
+                class="read-more"
+                data-blog="life"
+            >
+                READ MORE &gt;
+            </button>
+
+        </div>
+
+    </article>
+
+</main>
+
+
+<!-- =========================================
+     BLOG MODAL
+========================================= -->
+
+<div id="blogModal" class="blog-modal">
+
+    <div class="blog-modal-box">
+
+        <!-- CLOSE -->
+
+        <button id="closeBlogModal" class="close-modal">
+            ×
+        </button>
+
+
+        <!-- MODAL HEADING -->
+
+        <div class="modal-heading">
+
+            <h2 id="modalTitle">
+                Where Things Come to Life
+            </h2>
+
+            <h3 id="modalSubtitle">
+                Existence and Development Seen Through the Lens
+            </h3>
+
+        </div>
+
+
+        <!-- IMAGE + ARTICLE -->
+
+        <div class="modal-main">
+
+            <div class="modal-image-wrapper">
+
+                <img
+                    id="modalImage"
+                    src="media/winter-gulmarg.png"
+                    alt=""
+                >
+
+            </div>
+
+
+            <div class="modal-text">
+
+                <p id="modalText1"></p>
+
+                <p id="modalText2"></p>
+
+                <p id="modalText3"></p>
+
+                <p id="modalText4"></p>
+
+            </div>
+
+        </div>
+
+
+        <!-- BOTTOM TEXT -->
+
+        <div class="modal-bottom-text">
+
+            <p id="modalBottom"></p>
+
+        </div>
+
+    </div>
+
+</div>
+
+<footer class="site-footer">
+
+    <div class="footer-background">
+
+        <!-- Background image -->
+        <img
+            src="media/footer.png"
+            alt="Mountain landscape"
+            class="footer-bg-image">
+
+
+        <!-- Glass Information Panel -->
+        <div class="footer-glass-panel">
+
+
+            <!-- ==============================
+                 CONTACT INFORMATION
+            =============================== -->
+
+            <div class="footer-contact">
+
+
+                <!-- PHONE -->
+
+                <div class="footer-contact-item">
+
+                    <h4>Phone</h4>
+
+                    <a href="tel:+6005342130">
+                        +6005342130
+                    </a>
+
+                </div>
+
+
+                <!-- STUDIO -->
+
+                <div class="footer-contact-item">
+
+                    <h4>The Studio</h4>
+
+                    <p>
+                        Chanapora, near Jan Bakery<br>
+                        Srinagar-190015
+                    </p>
+
+                </div>
+
+
+                <!-- EMAIL -->
+
+                <div class="footer-contact-item">
+
+                    <h4>Email</h4>
+
+                    <a href="mailto:inficaptures@gmail.com">
+                        inficaptures@gmail.com
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- ==============================
+                 NAVIGATION
+            =============================== -->
+
+            <nav class="footer-navigation">
+
+                <a href="index.html">HOME</a>
+
+                <a href="about.html">ABOUT</a>
+
+                <a href="portfolio.html">PORTFOLIO</a>
+
+                <a href="blog.html">BLOG</a>
+
+                <a href="contact.html">CONTACT</a>
+
+            </nav>
+
+        </div>
+
+
+        <!-- ==============================
+             SOCIAL ICONS
+        =============================== -->
+
+        <div class="footer-socials">
+
+            <a
+                href="#"
+                aria-label="Instagram"
+                class="social-icon">
+
+                ◎
+
+            </a>
+
+
+            <a
+                href="#"
+                aria-label="LinkedIn"
+                class="social-icon linkedin-icon">
+
+                in
+
+            </a>
+
+
+            <a
+                href="#"
+                aria-label="Facebook"
+                class="social-icon">
+
+                f
+
+            </a>
+
+
+            <a
+                href="#"
+                aria-label="X"
+                class="social-icon">
+
+                𝕏
+
+            </a>
+
+        </div>
+
+    </div>
+
+</footer>
+<script src="blog.js"></script>
+
+</body>
+</html>
